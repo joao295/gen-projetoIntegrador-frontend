@@ -1,5 +1,5 @@
 #img-bg{
-    background-image: url(.../../../../assets/img/Component\ 1.jpg);
+    background-image: url(.../../../../assets/img/back.jpg);
     
     min-height: 838px;
     background-image: center;
@@ -8,17 +8,15 @@
     
     }
     
-    
     a {
         color: rgb(0, 0, 0);
     text-decoration-line: none;  
     }
-
+    
     .button {
-
+    
         background-color: #ffffff;
         color: white;
     
     
     }
-    
