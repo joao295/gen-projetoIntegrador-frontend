@@ -14,3 +14,9 @@
     padding: 10px;
     text-align: center;
 }
+
+.card-description{
+    text-indent: 35px;
+    text-align: justify;
+    padding: 15px;
+}
