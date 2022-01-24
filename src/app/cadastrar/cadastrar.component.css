@@ -1,7 +1,18 @@
 #img-bg{
-    background-image: url(https://i.pinimg.com/564x/9a/c5/7f/9ac57fe1270b207907bc32503a6c3987.jpg);
-    min-height: 695px;
+    background-image: url('https://i.imgur.com/OxuvIeP.jpg');
+    
+    min-height: 500px;
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.6;
+
+}
+.corBotao{
+    background-color : #ffd700;
+}
+.corBotaocancelar{
+    background-color: #1f1f22;
+    color: white;
 }

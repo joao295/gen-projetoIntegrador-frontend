@@ -1,58 +1,54 @@
 <div class="container-fluid">
-    <div class="row d-flex align-items-center h-100">
 
-        <div class="col-md-4" id="img-bg"></div>
+    <div class="row">
 
-        <div class="col-md-8 my-5">
-
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-10">
-
-                    <h1 class="text-center">Cadastrar</h1>
-
-                    <div class="form-group py-2">
-                        <label for="nome">Nome</label>
-                        <input class="form-control" type="text" name="nome" id="nome" placeholder="Digite seu nome completo">
-                    </div>
-
-                    <div class="form-group py-2">
-                        <label for="usuario">Usuário</label>
-                        <input class="form-control" type="text" name="usuario" id="usuario" placeholder="Crie seu usuário">
-                    </div>
-
-                    <div class="form-group py-2">
-                        <label for="usuario">Link da foto</label>
-                        <input class="form-control" type="text" name="link-foto" id="link-foto" placeholder="Insira uma URL">
-                    </div>
-
-                    <div class="form-group py-2">
-                        <label for="senha">Senha</label>
-                        <input class="form-control" type="password" name="senha" id="senha" placeholder="Crie sua senha">
-                    </div>
-
-                    <div class="form-group py-2">
-                        <label for="confirme-senha">Confirme sua senha</label>
-                        <input class="form-control" type="password" name="confirme-senha" id="confirme-senha" placeholder="Confirme sua senha">
-                    </div>
-
-                    <div class="form-group py-2">
-                        <label for="tipo-usuario">Tipo de usuário</label>
-                        <select class="form-control" name="tipo-usuario" id="tipo-usuario">
-                            <option>Selecione um tipo de usuário:</option>
-                            <option value="normal">Normal</option>
-                            <option value="admin">Administrador</option>
-                        </select>
-                    </div>
-
-                    <div class="d-flex justify-content-center pt-4">
-                        <button type="submit" class="btn btn-danger w-25 me-2" routerLink='/login'>Cancelar</button>
-                        <button type="submit" class="btn btn-success w-25 ms-2">Cadastrar</button>
-                    </div>
-
-                </div>
-            </div>
+        <div class="col-md-6" id="img-bg">
 
         </div>
 
+        <div class="col-md-6 mt-5 mb-5">
+
+            <div class="row d-flex justify-content-center">
+
+                <div class="col-md-10 ">
+        
+                    <h1 class="text-center">Cadastro</h1>
+        
+                    <div class="form-group">
+                        <label for="Nome">Nome</label>
+                        <input class="form-control" type="text" name="Nome" id="Nome" placeholder="Seu Nome">   
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input class="form-control" type="text" name="Email" id="Email" placeholder="Seu Email">   
+                    </div>
+                    <div class="form-group">
+                        <label for="Foto">Link da Foto</label>
+                        <input class="form-control" type="text" name="Foto" id="Foto" placeholder="Link da Foto">   
+                    </div>
+                    <div class="form-group">
+                        <label for="senha">Senha</label>
+                        <input class="form-control" type="password" name="Senha" id="Senha" placeholder="Sua Senha">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmSenha">Confirmar Senha</label>
+                        <input class="form-control" type="password" name="Senha" id="confirmSenha" placeholder="Confirme sua Senha">
+                    </div>
+                    <div class="form-group">
+                        <label for="Tipo">Tipo de Usuário</label>
+                        <select class="form-control" name="tipo" id="tipo">
+                        <option>Selecione um tipo de Usuário:</option>
+                        <option value="normal">Normal</option>
+                        <option value="Administrador">Administrador</option>
+                        </select>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button class="btn corBotaocancelar m-3"routerLink='/entrar'>Cancelar</button>
+                        <button class="btn corBotao m-3">Cadastrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+
