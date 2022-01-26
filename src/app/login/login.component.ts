@@ -28,6 +28,23 @@ export class LoginComponent implements OnInit {
   }
 
   entrar() {
+    this.authService.entrar(this.usuarioLogin).subscribe((resp: UsuarioLogin) => {
+
+      this.usuarioLogin = resp
+  
+      environment.token = this.usuarioLogin.token
+      environment.nome = this.usuarioLogin.nome
+      environment.foto = this.usuarioLogin.foto
+      environment.id = this.usuarioLogin.id
+      
+      this.router.navigate([/inicio])
+      },erro => {
+
+      if (erro.status == 500) {
+        alert('Usuario ou Senha estão incorretos')
+      }
+
+    })
 
   }
 
